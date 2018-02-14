@@ -3,8 +3,8 @@
 
 QString GitHub_URL="https://api.github.com";
 
-QString GitHub_User="YOUR USERNAME HERE";
-QString GitHub_Token="YOUR TOKEN HERE";
+QString GitHub_User="Istani";
+QString GitHub_Token="SECRET";
 
 
 QNetworkRequest GitHub_SetAuth(QString Url_Part, bool useBaseUrl=true) {
@@ -97,6 +97,7 @@ int main(int argc, char *argv[])
         }
 
     }
-    exit(0);
+    return 1;
+
     return a.exec();
 }
